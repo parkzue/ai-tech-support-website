@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Heading</h1>
-<p>perse</p>
+    <h1>Button Links</h1>
+
+    <button class="button" onclick="window.location.href='https://www.example.com/page1'">Button 1</button>
+    <button class="button" onclick="window.location.href='https://www.example.com/page2'">Button 2</button>
+    <button class="button" onclick="window.location.href='https://www.example.com/page3'">Button 3</button>
 
 </body>
 </html>
