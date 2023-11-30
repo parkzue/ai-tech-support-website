@@ -7,4 +7,4 @@
 <p>https://github.com/parkzue/ai-tech-support</p>
 
 <p>Here is a screenshot of the chat window</p>
-<img width="100%" src="https://github.com/parkzue/ai-tech-support-website/src/images/chatwindow.png?raw=true"></a>
+<img width="100%" src="https://github.com/parkzue/ai-tech-support-website/blob/main/src/images/chatwindow.png?raw=true"></a>
