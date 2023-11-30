@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import lpe6lpe8_cover from './images/lpe6lpe8.png';
 import lpe6flpe8f_cover from './images/lpe6flpe8f.png';
 import combigenius_cover from './images/combigenius.png';
-import GuideCard from './components/GuideCard';
+//import GuideCard from './components/GuideCard';
 //import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-import './App.css';
 
 const App = () => {
   const [selectedImage, setSelectedImage] = useState(null);
