@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>User</h1>
+      <h1>Available User Guides</h1>
       <div style={{ display: 'flex', justifyContent: 'space-around', position: 'relative' }}>
         <GuideCard
           imageUrl={lpe6lpe8_cover}
