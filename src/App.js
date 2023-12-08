@@ -1,58 +1,28 @@
-import React, { useState } from 'react';
-import lpe6lpe8_cover from './images/lpe6lpe8.png';
-import lpe6flpe8f_cover from './images/lpe6flpe8f.png';
-import combigenius_cover from './images/combigenius.png';
-import GuideCard from './components/GuideCard';
+import { BrowserRouter as Router, Route, Link, Routes, useLocation } from 'react-router-dom';
+import Home from './pages/Home';
+import Page_lpe6lpe8 from './pages/Page_lpe6lpe8';
+import Page_lpe6flpe8f from './pages/Page_lpe6flpe8f';
+import Page_combigenius from './pages/Page_combigenius';
+import NavigationBar from './components/NavigationBar';
+import './App.css';
 
 const App = () => {
-  const [selectedGuide, setSelectedGuide] = useState(null);
-
-  const handleImageClick = (url) => {
-    window.location.href = url;
-  };
-
-  const handleImageMouseEnter = (url, event) => {
-    setSelectedGuide(url);
-  };
-
-  const handleImageMouseLeave = () => {
-    setSelectedGuide(null);
-  };
-
   return (
-    <div>
-      <h1>Available User Guides</h1>
-      <div style={{ display: 'flex', justifyContent: 'space-around', position: 'relative' }}>
-        <GuideCard
-          imageUrl={lpe6lpe8_cover}
-          guideUrl="https://example.com"
-          altText="lpe6lpe8"
-          onClick={handleImageClick}
-          onMouseEnter={handleImageMouseEnter}
-          onMouseLeave={handleImageMouseLeave}
-          selected={selectedGuide === 'https://example.com'}
-        />
-        <GuideCard
-          imageUrl={lpe6flpe8f_cover}
-          guideUrl="https://example.net"
-          altText="lpe6flpe8f"
-          onClick={handleImageClick}
-          onMouseEnter={handleImageMouseEnter}
-          onMouseLeave={handleImageMouseLeave}
-          selected={selectedGuide === 'https://example.net'}
-        />
-        <GuideCard
-          imageUrl={combigenius_cover}
-          guideUrl="https://example.org"
-          altText="combigenius"
-          onClick={handleImageClick}
-          onMouseEnter={handleImageMouseEnter}
-          onMouseLeave={handleImageMouseLeave}
-          selected={selectedGuide === 'https://example.org'}
-        />
+<Router>
+      <div>
+      <NavigationBar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/lpe6lpe8" element={<Page_lpe6lpe8 />} />
+          <Route path="/lpe6flpe8f" element={<Page_lpe6flpe8f />} />
+          <Route path="/combigenius" element={<Page_combigenius />} />
+        </Routes>
       </div>
-    </div>
+    </Router>
+  
   );
+  
 };
 
 export default App;
