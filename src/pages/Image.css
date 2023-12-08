@@ -1,0 +1,28 @@
+.cover-image {
+    position: relative;
+    animation: ease-in-out;
+    animation-fill-mode: forwards; 
+    animation-name: image;
+    animation-duration: 1s;
+    animation-delay: 0.20s;
+  }
+
+  @keyframes image {
+    0%   {left:0px;}
+    100%  {left:30%;}
+  }
+
+  .description {
+    position: relative;
+    left:1%;
+    animation: ease-in-out;
+    animation-fill-mode: forwards; 
+    animation-name: text;
+    animation-duration: 1s;
+    animation-delay: 0.20s;
+  }
+
+  @keyframes text {
+    0%   {left:1%;}
+    100%  {left:5%;}
+  }
