@@ -8,10 +8,9 @@ import './App.css';
 
 const App = () => {
   return (
-<Router>
+    <Router>
       <div>
-      <NavigationBar />
-
+        <NavigationBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lpe6lpe8" element={<Page_lpe6lpe8 />} />
@@ -20,9 +19,9 @@ const App = () => {
         </Routes>
       </div>
     </Router>
-  
+
   );
-  
+
 };
 
 export default App;

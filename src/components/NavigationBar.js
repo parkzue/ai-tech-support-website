@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes, useLocation } from 'react-router-dom';
-import '../App.css';
+import './NavigationBar.css';
 
 const NavigationBar = () => {
     const location = useLocation();
@@ -21,13 +21,13 @@ const NavigationBar = () => {
                     Home
                 </NavItem>
                 <NavItem to="/lpe6lpe8" currentPath={location.pathname}>
-                    SubPage 1
+                    LPe6LPe8
                 </NavItem>
                 <NavItem to="/lpe6flpe8f" currentPath={location.pathname}>
-                    SubPage 2
+                    LPe6fLPe8f
                 </NavItem>
                 <NavItem to="/combigenius" currentPath={location.pathname}>
-                    SubPage 3
+                    Combi Genius
                 </NavItem>
             </ul>
         </nav>
