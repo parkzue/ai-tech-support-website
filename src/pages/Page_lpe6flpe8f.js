@@ -7,7 +7,7 @@ const Page_lpe6flpe8f = () => {
     return (
         <div>
             <div className='description'>
-                <h1>Placeholder Title Guide 2</h1>
+                <h1>LPe6f/LPe8f Laser Punch</h1>
                 <p>
                     [placeholder description]
                 </p>
@@ -16,7 +16,7 @@ const Page_lpe6flpe8f = () => {
                 <img src={image_url} style={{ cursor: 'pointer', maxWidth: '100%' }} />
             </div>
 
-            <BubbleChat chatflowid="2cfff132-9e17-4de2-888e-292c0b70c2e1" apiHost="https://ai-tech-support.onrender.com" />
+            <BubbleChat chatflowid="80fe60e6-cb69-4575-b176-ad6d2c5c260e" apiHost="https://ai-tech-support.onrender.com" />
         </div>
     );
 };

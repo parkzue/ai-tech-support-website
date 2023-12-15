@@ -7,9 +7,9 @@ const Page_combigenius = () => {
     return (
         <div>
             <div className='description'>
-                <h1>Placeholder Title Guide 3</h1>
+                <h1>Combi Genius</h1>
                 <p>
-                    [placeholder description]
+                    Note: Combi Genius guide is not available at the moment due to memory issues with specific guide.
                 </p>
             </div>
             <div className="cover-image">

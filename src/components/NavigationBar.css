@@ -30,7 +30,7 @@
   }
   
   .nav-item.active a {
-    color: yellow; /* Adjust the color for the active link */
+    color: yellow;
   }
   
   .nav-item a:hover {
