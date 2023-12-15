@@ -9,7 +9,11 @@ const Page_lpe6flpe8f = () => {
             <div className='description'>
                 <h1>LPe6f/LPe8f Laser Punch</h1>
                 <p>
-                    [placeholder description]
+                [Demo] User guide for LPe6f/LPe8f Laser Punch.<br/> 
+                    Open the chat to ask a question about the specific guide. 
+                    AI will then be used go through the files and provide you with an answer. <br/>
+                    If the generated answer does not satisfy, you may want to reformat the question or be more specific. <br/>
+                    Chatbot can be reset with the "new chat" button (top right of the chat).
                 </p>
             </div>
             <div className="cover-image">
