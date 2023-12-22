@@ -1,11 +1,11 @@
 import React from 'react';
 import image_url from '../images/combigenius.png';
 import { BubbleChat } from 'flowise-embed-react'
-import './Image.css';
+import './Page_chat.css';
 
 const Page_combigenius = () => {
     return (
-        <div>
+        <div className='page'>
             <div className='description'>
                 <h1>Combi Genius</h1>
                 <p>

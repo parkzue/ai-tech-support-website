@@ -1,11 +1,11 @@
 import React from 'react';
 import image_url from '../images/lpe6flpe8f.png';
 import { BubbleChat } from 'flowise-embed-react'
-import './Image.css';
+import './Page_chat.css';
 
 const Page_lpe6flpe8f = () => {
     return (
-        <div>
+        <div className='page'>
             <div className='description'>
                 <h1>LPe6f/LPe8f Laser Punch</h1>
                 <p>
