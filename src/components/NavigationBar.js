@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Link, Routes, useLocation } from 'react-router-dom';
 import './NavigationBar.css';
 import DarkModeToggle from './DarkModeToggle';
-import styled, { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 //for dark mode
 const GlobalStyle = createGlobalStyle`
@@ -10,14 +10,6 @@ const GlobalStyle = createGlobalStyle`
         background-color: ${(props) => (props.darkMode ? '#1a1a1a' : '#ffffff')};
         color: ${(props) => (props.darkMode ? '#ffffff' : '#000000')};
     }
-`;
-
-//container for dark mode switch
-const ModeSwitchContainer = styled.div`
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 40px
 `;
 
 const NavigationBar = () => {
@@ -54,9 +46,9 @@ const NavigationBar = () => {
                 </NavItem>
             </ul>
             <GlobalStyle darkMode={darkMode} />
-            <ModeSwitchContainer>
+            <div className='ModeSwitchContainer'>
                 <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-            </ModeSwitchContainer>
+            </div>
         </nav>
     );
 };

@@ -1,4 +1,3 @@
-import React from 'react';
 import './GuideCard.css';
 
 const GuideCard = ({ imageUrl, guideUrl, altText, onClick, onMouseEnter, onMouseLeave, selected }) => (

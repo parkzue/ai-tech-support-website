@@ -37,3 +37,10 @@
   .nav-item a:hover {
     color: lightgray;
   }
+
+  .ModeSwitchContainer {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px
+  }

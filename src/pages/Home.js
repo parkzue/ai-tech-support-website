@@ -30,7 +30,7 @@ const Home = () => {
                     <p>Select a guide to chat with</p>
                 </div>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-around', position: 'relative' }}>
+            <div className='Guides'>
                 <GuideCard
                     imageUrl={lpe6lpe8_cover}
                     guideUrl="lpe6lpe8"
