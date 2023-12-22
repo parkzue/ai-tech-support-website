@@ -38,3 +38,33 @@
   .page {
     overflow: hidden;
   }
+
+  .overlay-combi {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/combigenius_overlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+  }
+
+  .overlay-lpe6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/lpe6_overlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+  }
+
+  .overlay-lpe6f {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/lpe6f_overlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+  }

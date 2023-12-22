@@ -6,6 +6,7 @@ import './Page_chat.css';
 const Page_combigenius = () => {
     return (
         <div className='page'>
+        <div className='overlay-combi'></div>
             <div className='description'>
                 <h1>Combi Genius</h1>
                 <p>

@@ -6,6 +6,7 @@ import './Page_chat.css';
 const Page_lpe6lpe8 = () => {
     return (
         <div className='page'>
+            <div className='overlay-lpe6'></div>
             <div className='description'>
                 <h1>LPe6/LPe8 Laser Punch</h1>
                 <p>

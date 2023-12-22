@@ -4,6 +4,7 @@ import lpe6flpe8f_cover from '../images/lpe6flpe8f.png';
 import combigenius_cover from '../images/combigenius.png';
 import GuideCard from '../components/GuideCard';
 import { useNavigate } from 'react-router-dom';
+import './Page_home.css'
 
 const Home = () => {
     const [selectedGuide, setSelectedGuide] = useState(null);
@@ -23,7 +24,12 @@ const Home = () => {
 
     return (
         <div>
-            <h1>Available User Guides</h1>
+            <div className='body'>
+                <div className='title'>
+                    <h>Available User Guides</h>
+                    <p>Select a guide to chat with</p>
+                </div>
+            </div>
             <div style={{ display: 'flex', justifyContent: 'space-around', position: 'relative' }}>
                 <GuideCard
                     imageUrl={lpe6lpe8_cover}
